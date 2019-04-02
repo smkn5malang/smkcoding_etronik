@@ -1,4 +1,4 @@
-package com.example.e_tronik;
+package com.adlubagusi.e_tronik;
 
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentTransaction;

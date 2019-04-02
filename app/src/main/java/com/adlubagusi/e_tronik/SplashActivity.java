@@ -1,4 +1,4 @@
-package com.example.e_tronik;
+package com.adlubagusi.e_tronik;
 
 import android.content.Intent;
 import android.os.SystemClock;
