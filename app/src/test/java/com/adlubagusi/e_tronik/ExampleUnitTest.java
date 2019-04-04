@@ -1,4 +1,4 @@
-package com.example.e_tronik;
+package com.adlubagusi.e_tronik;
 
 import org.junit.Test;
 

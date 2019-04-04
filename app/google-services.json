@@ -1,0 +1,44 @@
+{
+  "project_info": {
+    "project_number": "76129417134",
+    "firebase_url": "https://e-tronik-accf2.firebaseio.com",
+    "project_id": "e-tronik-accf2",
+    "storage_bucket": "e-tronik-accf2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:76129417134:android:24470053d677d553",
+        "android_client_info": {
+          "package_name": "com.adlubagusi.e_tronik"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "76129417134-akniie5c6cj5el9r7eqvf410ubfo0j1f.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.adlubagusi.e_tronik",
+            "certificate_hash": "9ddd53597676d1463ec17e0dcf0159d63a7a1294"
+          }
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDcTkDpJVECwMZ3G7cYc9suchV3kfUUznA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "76129417134-3un44orkmv8g3k0vrtjig8ofhcee1g2r.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
