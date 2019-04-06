@@ -30,7 +30,7 @@
             android:layout_gravity="center"
             android:layout_marginLeft="8dp"
             android:layout_marginRight="8dp"
-            android:src="@drawable/applogo" />
+            android:src="@drawable/etronik1dark" />
 
         <EditText
             android:id="@+id/email_input"

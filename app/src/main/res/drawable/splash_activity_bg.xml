@@ -6,6 +6,6 @@
         </shape>
     </item>
     <item>
-        <bitmap android:src="@mipmap/logo" android:gravity="center"/>
+        <bitmap android:src="@mipmap/etronik2" android:gravity="center"/>
     </item>
 </layer-list>
