@@ -5,15 +5,34 @@ import android.os.SystemClock;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 
-public class SplashActivity extends AppCompatActivity {
+import com.google.firebase.auth.FirebaseAuth;
+import com.google.firebase.auth.FirebaseUser;
 
+public class SplashActivity extends AppCompatActivity {
+    private FirebaseAuth firebaseAuth;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_splash);
+        firebaseAuth = FirebaseAuth.getInstance();
         SystemClock.sleep(3000);
-        Intent mainIntent = new Intent(this, RegisterActivity.class);
-        startActivity(mainIntent);
+        Intent loginIntent = new Intent(this, RegisterActivity.class);
+        startActivity(loginIntent);
         finish();
+    }
+
+    @Override
+    protected void onStart() {
+        super.onStart();
+        FirebaseUser currentUser = firebaseAuth.getCurrentUser();
+        if(currentUser == null){
+            Intent loginIntent = new Intent(this, RegisterActivity.class);
+            startActivity(loginIntent);
+            finish();
+        }else{
+            Intent mainIntent = new Intent(this, MainActivity.class);
+            startActivity(mainIntent);
+            finish();
+        }
     }
 }
