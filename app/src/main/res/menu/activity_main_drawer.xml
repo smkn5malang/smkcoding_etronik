@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group >
+        <item
+            android:id="@+id/nav_my_mall"
+            android:icon="@drawable/icon_mall"
+            android:title="Tokoku" />
+        <item
+            android:id="@+id/nav_my_order"
+            android:icon="@drawable/icon_order"
+            android:title="Pesanan Saya" />
+        <item
+            android:id="@+id/nav_my_rewards"
+            android:icon="@drawable/icon_rewards"
+            android:title="Rewards" />
+        <item
+            android:id="@+id/nav_my_cart"
+            android:icon="@drawable/icon_cart"
+            android:title="Keranjang" />
+        <item
+            android:id="@+id/nav_my_wishlist"
+            android:icon="@drawable/icon_star"
+            android:title="Favorit" />
+        <item
+            android:id="@+id/nav_my_account"
+            android:icon="@drawable/icon_profile"
+            android:title="Akun" />
+    </group>
+    <item
+        android:id="@+id/nav_sign_out"
+        android:icon="@drawable/ic_power_settings_new_black_24dp"
+        android:title="Keluar" />
+
+
+</menu>

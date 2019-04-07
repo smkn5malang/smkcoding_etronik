@@ -31,6 +31,8 @@ import com.google.android.gms.tasks.Task;
 import com.google.firebase.auth.AuthResult;
 import com.google.firebase.auth.FirebaseAuth;
 
+import static com.adlubagusi.e_tronik.RegisterActivity.onResetPwFrg;
+
 
 /**
  * A simple {@link Fragment} subclass.
@@ -86,6 +88,7 @@ public class SignInFragment extends Fragment {
         forgotPassword.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                onResetPwFrg = true;
                 setFragment(new ForgetPasswordFragment());
             }
         });
