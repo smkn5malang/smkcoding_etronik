@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="75dp"
+    android:layout_height="match_parent"
+    android:background="#70ffffff"
+    android:orientation="vertical"
+    android:paddingRight="5dp"
+    android:paddingLeft="5dp"
+    android:paddingTop="7dp">
+    <ImageView
+        android:id="@+id/category_icon"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_phone"
+        />
+    <TextView
+        android:id="@+id/category_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Network Tools"
+        android:textSize="10sp"
+        android:textAlignment="center"
+        android:layout_gravity="center"/>
+</LinearLayout>

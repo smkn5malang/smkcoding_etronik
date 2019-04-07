@@ -8,8 +8,8 @@
 
     <android.support.v7.widget.RecyclerView
         android:id="@+id/category_recyclerview"
-        android:background="#80ffffff"
-        android:elevation="3dp"
+        android:background="#fff"
+        android:elevation="13dp"
         android:layout_width="match_parent"
         android:layout_height="match_parent" />
 </android.support.constraint.ConstraintLayout>
