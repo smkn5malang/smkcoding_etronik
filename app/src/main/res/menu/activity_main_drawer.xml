@@ -22,7 +22,7 @@
             android:title="Keranjang" />
         <item
             android:id="@+id/nav_my_wishlist"
-            android:icon="@drawable/icon_star"
+            android:icon="@drawable/ic_favorite"
             android:title="Favorit" />
         <item
             android:id="@+id/nav_my_account"
